@@ -105,6 +105,7 @@ Spaceship is a minimalistic, powerful and extremely customizable [Zsh][zsh-url] 
 - Current Kubectl context (`☸️`).
 - Current Terraform workspace (`🛠`).
 - Package version, if there's is a package in current directory (`📦`).
+- Angular version, if there's a package with @angular/core dependency in current directory (`🅰️`)
 - Current battery level and status:
   - `⇡` - charging;
   - `⇣` - discharging;
@@ -156,7 +157,7 @@ git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/theme
 Symlink `spaceship.zsh-theme` to your oh-my-zsh custom themes directory:
 
 ```zsh
-ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme" 
+ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
 ```
 
 Set `ZSH_THEME="spaceship"` in your `.zshrc`.
